@@ -1,4 +1,4 @@
-# Contributing to Awesome Design MD
+# Contributing to Design Advisor Skills
 
 Thanks for contributing.
 
