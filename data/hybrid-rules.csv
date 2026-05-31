@@ -1,0 +1,8 @@
+token_category,hybrid_strategy,rule
+colors,selective,主色取自A表面色取自B语义色统一;允许从不同系统组合色彩层次
+typography,unified,必须统一使用一个体系;字体混搭会导致视觉割裂
+rounded,average,可取两者中值或按需选择;圆角是最容易混合的token
+spacing,unified,必须统一使用一个体系;间距一致性是视觉节奏的基础
+components,pick,按功能需要从A或B中分别选取;组件是最灵活的混合项
+elevation,unified,阴影系统必须统一;混用阴影会破坏层次感
+layout,pick,布局原则可从A或B中选取;不同页面可用不同布局风格

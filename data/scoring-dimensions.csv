@@ -1,0 +1,13 @@
+dimension,weight,category,description,score_10_desc,score_1_desc
+color-fit,3,visual,色彩体系与目标品牌/行业匹配,色彩完全契合行业惯例和品牌调性,色彩完全冲突
+typography-fit,3,visual,字体风格(严肃/活泼/技术/编辑)匹配,字体风格完美传达目标调性,字体风格严重错位
+personality-match,3,brand,品牌性格(活泼/中性/严肃/优雅/叛逆)匹配,性格调性高度一致,性格调性完全相反
+density-suitability,2,layout,信息密度与产品类型适配,密度完美匹配内容量和交互需求,密度严重不匹配
+dark-mode,2,technical,暗色模式原生支持,原生暗色完整方案,无暗色支持
+component-coverage,2,technical,组件丰富度满足需求,组件全覆盖无需扩展,组件严重不足
+industry-fit,3,domain,行业惯例匹配,该风格的典型行业与目标完全一致,该风格从未出现在目标行业
+accessibility,1,technical,对比度和可访问性基础,WCAG AA以上达标,低对比度不达标
+feasibility,2,technical,实现难度(专有字体/SVG渐变可替代性),全部可开源自替代,核心依赖专有资源
+uniqueness,1,brand,视觉辨识度,风格高度独特不易混淆,风格通用无明显特征
+scalability,1,technical,设计系统扩展性,可支撑复杂多页面应用,仅适合单页落地页
+cultural-fit,2,domain,文化适配(国际化/中国用户偏好),完美适配目标文化圈,文化风格冲突

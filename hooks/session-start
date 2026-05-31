@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# SessionStart hook for design-advisor plugin
+
+set -euo pipefail
+
+# Determine plugin root directory
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PLUGIN_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+# Read design-advisor SKILL.md content
+advisor_content=$(cat "${PLUGIN_ROOT}/skills/design-advisor/SKILL.md" 2>&1 || echo "Error reading design-advisor skill")
+
+# Escape string for JSON embedding
+escape_for_json() {
+    local s="$1"
+    s="${s//\\/\\\\}"
+    s="${s//\"/\\\"}"
+    s="${s//$'\n'/\\n}"
+    s="${s//$'\r'/\\r}"
+    s="${s//$'\t'/\\t}"
+    printf '%s' "$s"
+}
+
+advisor_escaped=$(escape_for_json "$advisor_content")
+session_context="<DESIGN_ADVISOR>\nYou have access to the Design Advisor plugin - an intelligent design system recommendation engine based on 72 curated DESIGN.md files.\n\nWhen the user asks about choosing a design style, visual direction, or design system for their project, invoke the \`design-advisor\` skill to analyze their needs and provide scored recommendations.\n\n**Available skills:**\n- \`design-advisor\` - Main entry: interactive requirement gathering + scoring + recommendation\n- \`design-score\` - Scoring engine: 12-dimension evaluation of all 72 design systems\n- \`design-compare\` - Comparison display: ranked table + analysis + user selection\n- \`design-hybrid\` - Hybrid generation: mix tokens from multiple design systems\n- \`design-generate\` - Output: generate a custom DESIGN.md file\n\n**Data files available in \`data/\` directory:**\n- \`design-index.yaml\` - Quantitative metrics for all 72 brands\n- \`personality-tags.yaml\` - Personality/tone/density tags for all 72 brands\n- \`scoring-dimensions.csv\` - 12 scoring dimension definitions\n- \`industry-fit.csv\` - Industry-to-style mapping matrix\n- \`hybrid-rules.csv\` - Rules for mixing tokens across design systems\n\n${advisor_escaped}\n</DESIGN_ADVISOR>"
+
+# Output context injection as JSON
+if [ -n "${CURSOR_PLUGIN_ROOT:-}" ]; then
+  printf '{\n  "additional_context": "%s"\n}\n' "$session_context"
+elif [ -n "${CLAUDE_PLUGIN_ROOT:-}" ] && [ -z "${COPILOT_CLI:-}" ]; then
+  printf '{\n  "hookSpecificOutput": {\n    "hookEventName": "SessionStart",\n    "additionalContext": "%s"\n  }\n}\n' "$session_context"
+else
+  printf '{\n  "additionalContext": "%s"\n}\n' "$session_context"
+fi
+
+exit 0

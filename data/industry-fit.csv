@@ -1,0 +1,13 @@
+industry,preferred_tones,preferred_density,preferred_color_style,typical_brands
+金融Fintech,严谨|专业|信任,中|密,单色克制|双色平衡,stripe;wise;revolut;coinbase;binance;mastercard;kraken
+AI/LLM,科技|未来|自信|创新,中|密,多色分类|渐变为主|minimax;claude;cursor;voltagent;together.ai;replicate;runwayml;elevenlabs;cohere;mistral.ai;ollama;x.ai;opencode.ai
+电商零售,活泼|清晰|高转化,密,多色分类|高饱和撞色,shopify;nike;airbnb;uber;starbucks;meta;pinterest
+企业SaaS,专业|功能|高效|可靠,密,单色克制|双色平衡,sentry;posthog;linear.app;notion;zapier;cal;intercom;resend;superhuman;mintlify;miro;airtable
+汽车出行,冲击力|极简|高端|力量,疏|中,单色克制,tesla;bmw;bmw-m;ferrari;lamborghini;bugatti;renault
+设计创意,大胆|实验|视觉|表现力,中,渐变为主|高饱和撞色,figma;framer;webflow;clay
+开发者工具,技术|简洁|高效|专业,中|密,单色克制|双色平衡,cursor;raycast;warp;vercel;hashicorp;supabase;clickhouse;mongodb;sanity;composio;expo;slack;posthog;lovable
+媒体消费,沉浸|优雅|极简|个性,疏|中,单色克制|多色高饱和,spotify;apple;theverge;wired;playstation
+通信社交,连接|活力|友好|现代,中,多色分类,meta;slack;vodafone;intercom
+科技综合,专业|创新|可靠,中,单色克制|双色平衡,ibm;nvidia;spacex
+健康医疗,信任|温暖|专业|简洁,中,双色平衡,cal;notion
+教育,清晰|友好|可信|开放,中,双色平衡,notion;airtable;miro

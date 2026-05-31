@@ -1,0 +1,713 @@
+# personality-tags.yaml
+# 71 brand personality profiles derived from DESIGN.md analysis
+# Each entry based on actual design system content
+
+airbnb:
+  tone: [温暖, 友好, 人文]
+  density: 疏
+  color_style: 单色克制
+  mood: 温暖归属
+  industries: [旅游住宿, 社区平台]
+  strengths: [情感化摄影叙事, 柔和圆角亲和力]
+  weaknesses: [色彩层次较单一]
+  cn_friendly: 4
+
+airtable:
+  tone: [专业, 清晰, 理性]
+  density: 中
+  color_style: 双色平衡
+  mood: 严谨有序
+  industries: [效率工具, 企业SaaS]
+  strengths: [卡片色彩分类体系, 编辑式排版]
+  weaknesses: [视觉冲击力偏弱]
+  cn_friendly: 3
+
+apple:
+  tone: [极简, 高端, 克制]
+  density: 极疏
+  color_style: 单色克制
+  mood: 极致留白
+  industries: [消费电子, 科技]
+  strengths: [摄影优先叙事, 极致留白控制]
+  weaknesses: [信息密度极低, 复用性差]
+  cn_friendly: 5
+
+binance:
+  tone: [活力, 专业, 紧迫]
+  density: 密
+  color_style: 双色平衡
+  mood: 交易脉冲
+  industries: [金融科技, 加密货币]
+  strengths: [高对比深色界面, 数据密集排版]
+  weaknesses: [浅色模式表现弱]
+  cn_friendly: 5
+
+bmw:
+  tone: [严谨, 工程, 信赖]
+  density: 中
+  color_style: 单色克制
+  mood: 工程精密
+  industries: [汽车, 制造业]
+  strengths: [品牌色系统化, 布局网格规范]
+  weaknesses: [视觉个性不足]
+  cn_friendly: 3
+
+bmw-m:
+  tone: [激进, 运动, 力量]
+  density: 中
+  color_style: 多色分类
+  mood: 赛道激情
+  industries: [汽车, 运动]
+  strengths: [三色条纹品牌符号, 大写排版冲击力]
+  weaknesses: [受众圈层窄]
+  cn_friendly: 2
+
+bugatti:
+  tone: [极致, 奢华, 矜持]
+  density: 极疏
+  color_style: 单色克制
+  mood: 绝对奢华
+  industries: [奢侈品, 汽车]
+  strengths: [极致字距留白, 纯黑高级感]
+  weaknesses: [几乎无装饰元素, 复用性极低]
+  cn_friendly: 2
+
+cal:
+  tone: [友好, 简洁, 现代]
+  density: 疏
+  color_style: 单色克制
+  mood: 轻松预约
+  industries: [效率工具, SaaS]
+  strengths: [定制字体品牌感, 单色系统统一]
+  weaknesses: [视觉记忆点偏少]
+  cn_friendly: 3
+
+claude:
+  tone: [温暖, 智慧, 人文]
+  density: 疏
+  color_style: 双色平衡
+  mood: 温暖智慧
+  industries: [人工智能, 科技]
+  strengths: [奶油底色亲和力, 衬线体混排质感]
+  weaknesses: [深色模式对比度不足]
+  cn_friendly: 3
+
+clay:
+  tone: [活泼, 创意, 趣味]
+  density: 中
+  color_style: 高饱和撞色
+  mood: 粘土趣味
+  industries: [设计工具, B2B]
+  strengths: [3D粘土风格独特, 六色饱和卡片]
+  weaknesses: [风格过于鲜明, 场景受限]
+  cn_friendly: 3
+
+clickhouse:
+  tone: [硬核, 高效, 直觉]
+  density: 中
+  color_style: 双色平衡
+  mood: 电光速度
+  industries: [数据库, 基础设施]
+  strengths: [黄黑超高对比, 数据可视化体系]
+  weaknesses: [浅色体验弱]
+  cn_friendly: 3
+
+cohere:
+  tone: [沉稳, 企业, 信赖]
+  density: 中
+  color_style: 单色克制
+  mood: 深绿沉稳
+  industries: [人工智能, 企业服务]
+  strengths: [深绿色带品牌识别, 企业级克制]
+  weaknesses: [视觉张力偏弱]
+  cn_friendly: 2
+
+coinbase:
+  tone: [稳健, 信赖, 专业]
+  density: 中
+  color_style: 单色克制
+  mood: 机构信任
+  industries: [金融科技, 加密货币]
+  strengths: [蓝色品牌信赖感, 轻量字重专业调性]
+  weaknesses: [视觉趣味性低]
+  cn_friendly: 3
+
+composio:
+  tone: [硬核, 活力, 开发者]
+  density: 密
+  color_style: 双色平衡
+  mood: 电蓝脉冲
+  industries: [开发者工具, AI基础设施]
+  strengths: [电蓝深色开发者美学, 代码风格统一]
+  weaknesses: [非技术用户亲和力差]
+  cn_friendly: 3
+
+cursor:
+  tone: [温暖, 编辑, 工匠]
+  density: 疏
+  color_style: 双色平衡
+  mood: 奶油编辑
+  industries: [开发者工具, 人工智能]
+  strengths: [橙色品牌锚点, 奶油底编辑排版]
+  weaknesses: [色彩系统单一]
+  cn_friendly: 4
+
+elevenlabs:
+  tone: [优雅, 未来, 杂志]
+  density: 疏
+  color_style: 渐变为主
+  mood: 柔光未来
+  industries: [人工智能, 语音技术]
+  strengths: [柔和渐变球体氛围, 超细字重优雅感]
+  weaknesses: [浅色渐变层次感弱]
+  cn_friendly: 3
+
+expo:
+  tone: [开朗, 开发者, 现代]
+  density: 中
+  color_style: 渐变为主
+  mood: 天蓝开放
+  industries: [开发者工具, 移动开发]
+  strengths: [天蓝渐变品牌识别, 设备模型展示]
+  weaknesses: [视觉风格偏通用]
+  cn_friendly: 3
+
+ferrari:
+  tone: [极致, 激情, 电影感]
+  density: 疏
+  color_style: 单色克制
+  mood: 赛道电影
+  industries: [奢侈品, 汽车]
+  strengths: [电影感摄影叙事, 红色品牌绝对焦点]
+  weaknesses: [深色画布信息量低]
+  cn_friendly: 2
+
+figma:
+  tone: [友好, 创意, 中性]
+  density: 中
+  color_style: 多色分类
+  mood: 柔彩工坊
+  industries: [设计工具, 协作平台]
+  strengths: [粉彩色彩块分类, 胶囊按钮亲和力]
+  weaknesses: [深色模式下粉彩对比弱]
+  cn_friendly: 5
+
+framer:
+  tone: [活力, 创意, 前卫]
+  density: 密
+  color_style: 渐变为主
+  mood: 暗夜霓虹
+  industries: [设计工具, 建站平台]
+  strengths: [鲜艳渐变面板冲击力, 深色构建器沉浸感]
+  weaknesses: [浅色模式表现弱]
+  cn_friendly: 4
+
+hashicorp:
+  tone: [专业, 企业, 工程]
+  density: 中
+  color_style: 多色分类
+  mood: 基础设施
+  industries: [云计算, 基础设施]
+  strengths: [多产品色彩体系, 企业级一致性]
+  weaknesses: [视觉温度偏冷]
+  cn_friendly: 3
+
+ibm:
+  tone: [专业, 理性, 信赖]
+  density: 中
+  color_style: 单色克制
+  mood: 蓝色理性
+  industries: [企业服务, 科技]
+  strengths: [Carbon设计体系完整度, 轻量字重专业感]
+  weaknesses: [品牌个性偏保守]
+  cn_friendly: 3
+
+intercom:
+  tone: [温暖, 友好, 人文]
+  density: 疏
+  color_style: 双色平衡
+  mood: 奶油对话
+  industries: [客服SaaS, 企业工具]
+  strengths: [奶油底编辑风格, Fin橙色品牌锚点]
+  weaknesses: [视觉差异化不足]
+  cn_friendly: 4
+
+kraken:
+  tone: [神秘, 专业, 紧迫]
+  density: 密
+  color_style: 单色克制
+  mood: 深紫海渊
+  industries: [金融科技, 加密货币]
+  strengths: [紫色品牌独占性, 自定义字体识别度]
+  weaknesses: [浅色模式不完整]
+  cn_friendly: 3
+
+lamborghini:
+  tone: [极致, 力量, 奢华]
+  density: 中
+  color_style: 双色平衡
+  mood: 真黑金锋
+  industries: [奢侈品, 汽车]
+  strengths: [黑金极致对比, 零圆角锋利感]
+  weaknesses: [极端风格复用性极低]
+  cn_friendly: 2
+
+linear.app:
+  tone: [极致, 工程, 深邃]
+  density: 密
+  color_style: 双色平衡
+  mood: 深渊紫蓝
+  industries: [效率工具, 开发者]
+  strengths: [最深深色沉浸感, 薰衣草蓝精致点缀]
+  weaknesses: [深色模式对比度挑战]
+  cn_friendly: 5
+
+lovable:
+  tone: [温暖, 轻柔, 人文]
+  density: 疏
+  color_style: 单色克制
+  mood: 羊皮纸柔
+  industries: [人工智能, 开发者工具]
+  strengths: [羊皮纸底色亲和力, 透明度驱动层次]
+  weaknesses: [品牌色彩记忆弱]
+  cn_friendly: 3
+
+mastercard:
+  tone: [信赖, 温暖, 现代]
+  density: 中
+  color_style: 双色平衡
+  mood: 轨道温暖
+  industries: [金融支付, 科技]
+  strengths: [超大圆角现代感, 轨道弧线品牌符号]
+  weaknesses: [品牌色依赖度过高]
+  cn_friendly: 4
+
+meta:
+  tone: [中性, 产品化, 现代]
+  density: 密
+  color_style: 单色克制
+  mood: 蓝色产品
+  industries: [社交平台, 科技]
+  strengths: [产品展示网格, 胶囊按钮统一感]
+  weaknesses: [视觉个性偏低]
+  cn_friendly: 4
+
+minimax:
+  tone: [活力, 现代, 前卫]
+  density: 中
+  color_style: 渐变为主
+  mood: 黑胶囊渐变
+  industries: [人工智能, 科技]
+  strengths: [渐变产品卡片冲击力, 黑胶囊CTA对比]
+  weaknesses: [浅色体验弱]
+  cn_friendly: 5
+
+mintlify:
+  tone: [清新, 开发者, 现代]
+  density: 疏
+  color_style: 渐变为主
+  mood: 天空渐变
+  industries: [开发者工具, 文档平台]
+  strengths: [天空渐变品牌识别, 绿色强调色清新]
+  weaknesses: [色彩层次偏薄]
+  cn_friendly: 3
+
+miro:
+  tone: [活泼, 协作, 创意]
+  density: 中
+  color_style: 高饱和撞色
+  mood: 便利贴活力
+  industries: [协作工具, 设计]
+  strengths: [亮黄品牌识别度, 粉彩便签色系]
+  weaknesses: [色彩过饱和易疲劳]
+  cn_friendly: 4
+
+mistral.ai:
+  tone: [温暖, 未来, 活力]
+  density: 疏
+  color_style: 渐变为主
+  mood: 日落暖光
+  industries: [人工智能, 科技]
+  strengths: [日落渐变品牌氛围, 橙色CTA温暖感]
+  weaknesses: [色彩系统偏暖不够中性]
+  cn_friendly: 3
+
+mongodb:
+  tone: [沉稳, 现代, 专业]
+  density: 中
+  color_style: 双色平衡
+  mood: 深青数据
+  industries: [数据库, 基础设施]
+  strengths: [深青色品牌稳重感, 绿色胶囊活力]
+  weaknesses: [视觉趣味性偏低]
+  cn_friendly: 4
+
+nike:
+  tone: [激进, 力量, 运动]
+  density: 密
+  color_style: 单色克制
+  mood: 极限运动
+  industries: [运动, 消费品]
+  strengths: [超大字重对比冲击, Futura大写品牌力]
+  weaknesses: [风格极端, 复用性极低]
+  cn_friendly: 5
+
+notion:
+  tone: [友好, 清晰, 现代]
+  density: 中
+  color_style: 多色分类
+  mood: 深蓝柔彩
+  industries: [效率工具, SaaS]
+  strengths: [粉彩功能卡片分类, 紫色CTA品牌感]
+  weaknesses: [色彩层次偏保守]
+  cn_friendly: 5
+
+nvidia:
+  tone: [硬核, 科技, 专业]
+  density: 中
+  color_style: 双色平衡
+  mood: 硬核绿刃
+  industries: [半导体, 人工智能]
+  strengths: [黑绿科技品牌力, 2px锐角工业感]
+  weaknesses: [视觉温度极冷]
+  cn_friendly: 4
+
+ollama:
+  tone: [极简, 安静, 文档]
+  density: 极疏
+  color_style: 单色克制
+  mood: 极简羊驼
+  industries: [人工智能, 开发者工具]
+  strengths: [极简文档美学, 黑色胶囊聚焦]
+  weaknesses: [几乎无视觉装饰]
+  cn_friendly: 3
+
+opencode.ai:
+  tone: [硬核, 极客, 纯粹]
+  density: 密
+  color_style: 单色克制
+  mood: 终端纯粹
+  industries: [开发者工具, 人工智能]
+  strengths: [全等宽字体极客美学, 终端原生感]
+  weaknesses: [非技术用户完全不可用]
+  cn_friendly: 2
+
+pinterest:
+  tone: [温暖, 发现, 灵感]
+  density: 密
+  color_style: 单色克制
+  mood: 灵感瀑布
+  industries: [社交媒体, 内容平台]
+  strengths: [瀑布流图片展示, 红色品牌高识别]
+  weaknesses: [深色模式体验弱]
+  cn_friendly: 4
+
+playstation:
+  tone: [沉浸, 高端, 电影]
+  density: 中
+  color_style: 双色平衡
+  mood: 深蓝沉浸
+  industries: [游戏, 娱乐]
+  strengths: [黑蓝章节式叙事, 轻量字重沉浸感]
+  weaknesses: [视觉温暖度低]
+  cn_friendly: 4
+
+posthog:
+  tone: [友好, 趣味, 开发者]
+  density: 中
+  color_style: 双色平衡
+  mood: 刺猬奶油
+  industries: [开发者工具, 数据分析]
+  strengths: [吉祥物人格化, 黄橙CTA温暖感]
+  weaknesses: [品牌一致性依赖吉祥物]
+  cn_friendly: 3
+
+raycast:
+  tone: [专业, 极简, 高效]
+  density: 密
+  color_style: 单色克制
+  mood: 暗夜命令
+  industries: [效率工具, 开发者]
+  strengths: [命令面板交互范式, 白色胶囊深底对比]
+  weaknesses: [深色模式依赖度高]
+  cn_friendly: 3
+
+renault:
+  tone: [活力, 工程, 现代]
+  density: 中
+  color_style: 双色平衡
+  mood: 阳光工程
+  industries: [汽车, 制造业]
+  strengths: [日光黄品牌识别, NouvelR字体独特]
+  weaknesses: [黄黑对比易视觉疲劳]
+  cn_friendly: 2
+
+replicate:
+  tone: [温暖, 编辑, 工匠]
+  density: 疏
+  color_style: 双色平衡
+  mood: 奶油橙火
+  industries: [人工智能, 开发者工具]
+  strengths: [热橙色CTA冲击力, 衬线体混排质感]
+  weaknesses: [深色体验不完整]
+  cn_friendly: 3
+
+resend:
+  tone: [优雅, 编辑, 深邃]
+  density: 疏
+  color_style: 渐变为主
+  mood: 暗夜编辑
+  industries: [开发者工具, 通信]
+  strengths: [Domaine Display衬线优雅, 大气光晕氛围]
+  weaknesses: [浅色模式对比度挑战]
+  cn_friendly: 3
+
+revolut:
+  tone: [现代, 大胆, 金融]
+  density: 中
+  color_style: 单色克制
+  mood: 钴紫金融
+  industries: [金融科技, 银行]
+  strengths: [钴紫色品牌差异, 超大显示字重]
+  weaknesses: [色彩温度偏冷]
+  cn_friendly: 3
+
+runwayml:
+  tone: [电影感, 前卫, 艺术]
+  density: 疏
+  color_style: 单色克制
+  mood: 电影画布
+  industries: [人工智能, 创意工具]
+  strengths: [电影感摄影叙事, 深色沉浸体验]
+  weaknesses: [UI装饰元素少]
+  cn_friendly: 3
+
+sanity:
+  tone: [硬核, 编辑, 专业]
+  density: 中
+  color_style: 双色平衡
+  mood: 深夜霓虹
+  industries: [内容管理, 开发者工具]
+  strengths: [近黑底色专业感, 霓虹点缀活力]
+  weaknesses: [浅色体验不完整]
+  cn_friendly: 3
+
+sentry:
+  tone: [专业, 紧迫, 工程]
+  density: 中
+  color_style: 双色平衡
+  mood: 午夜电光
+  industries: [开发者工具, 监控]
+  strengths: [紫罗兰午夜氛围, 电光绿活力点缀]
+  weaknesses: [色彩温度偏冷]
+  cn_friendly: 3
+
+shopify:
+  tone: [专业, 现代, 双面]
+  density: 中
+  color_style: 单色克制
+  mood: 黑白双轨
+  industries: [电商, SaaS]
+  strengths: [黑白双轨道切换, Neue Haas字体品质]
+  weaknesses: [品牌色彩记忆点弱]
+  cn_friendly: 4
+
+slack:
+  tone: [友好, 协作, 温暖]
+  density: 中
+  color_style: 渐变为主
+  mood: 茄紫柔光
+  industries: [协作工具, 企业SaaS]
+  strengths: [茄紫品牌独占性, 奶油薰衣草渐变]
+  weaknesses: [色彩系统复杂度高]
+  cn_friendly: 5
+
+spacex:
+  tone: [极致, 工程, 太空]
+  density: 极疏
+  color_style: 单色克制
+  mood: 纯黑太空
+  industries: [航空航天, 科技]
+  strengths: [纯黑摄影极致叙事, D-DIN大写工业感]
+  weaknesses: [几乎无色彩装饰, 复用性极低]
+  cn_friendly: 2
+
+spotify:
+  tone: [沉浸, 活力, 音乐]
+  density: 密
+  color_style: 双色平衡
+  mood: 深绿沉浸
+  industries: [音乐, 娱乐]
+  strengths: [品牌绿高识别, 胶囊几何统一感]
+  weaknesses: [浅色模式不完整]
+  cn_friendly: 5
+
+starbucks:
+  tone: [温暖, 友好, 自然]
+  density: 中
+  color_style: 单色克制
+  mood: 四季绿意
+  industries: [餐饮, 消费品]
+  strengths: [四层绿色体系丰富, SoDoSans定制感]
+  weaknesses: [色彩范围窄]
+  cn_friendly: 4
+
+stripe:
+  tone: [专业, 优雅, 前卫]
+  density: 疏
+  color_style: 渐变为主
+  mood: 墨蓝渐变
+  industries: [金融科技, 支付]
+  strengths: [渐变网格艺术品牌力, Sohne轻量优雅]
+  weaknesses: [色彩系统复杂实现成本高]
+  cn_friendly: 4
+
+supabase:
+  tone: [现代, 清晰, 开发者]
+  density: 中
+  color_style: 双色平衡
+  mood: 翡翠极简
+  industries: [数据库, 开发者工具]
+  strengths: [翡翠绿CTA品牌识别, 黑白极简底色]
+  weaknesses: [视觉趣味性偏低]
+  cn_friendly: 4
+
+superhuman:
+  tone: [专业, 高效, 编辑]
+  density: 中
+  color_style: 双色平衡
+  mood: 靛蓝高效
+  industries: [效率工具, 通信]
+  strengths: [靛蓝海军色信赖感, 青色CTA带对比]
+  weaknesses: [色彩温暖度低]
+  cn_friendly: 2
+
+tesla:
+  tone: [极简, 工程, 未来]
+  density: 极疏
+  color_style: 单色克制
+  mood: 极简电动
+  industries: [汽车, 能源]
+  strengths: [极致减法设计, 电蓝品牌点缀]
+  weaknesses: [视觉信息量极低]
+  cn_friendly: 4
+
+theverge:
+  tone: [激进, 前卫, 编辑]
+  density: 密
+  color_style: 高饱和撞色
+  mood: 酸绿紫外
+  industries: [媒体, 科技资讯]
+  strengths: [酸绿紫外高辨识度, 107px超大标题冲击]
+  weaknesses: [色彩过激不适合所有场景]
+  cn_friendly: 2
+
+together.ai:
+  tone: [活力, 未来, 多元]
+  density: 中
+  color_style: 渐变为主
+  mood: 三色渐变
+  industries: [人工智能, 云计算]
+  strengths: [橙紫渐变英雄区冲击力, 多色渐变体系]
+  weaknesses: [渐变色彩一致性控制难]
+  cn_friendly: 3
+
+uber:
+  tone: [专业, 极简, 都市]
+  density: 中
+  color_style: 单色克制
+  mood: 黑白都市
+  industries: [出行, 物流]
+  strengths: [UberMove定制字体, 胶囊形状统一感]
+  weaknesses: [品牌色彩记忆点弱]
+  cn_friendly: 4
+
+vercel:
+  tone: [极简, 前卫, 开发者]
+  density: 疏
+  color_style: 渐变为主
+  mood: 黑白渐变
+  industries: [云计算, 开发者工具]
+  strengths: [多色网格渐变品牌艺术, 黑白极简底色]
+  weaknesses: [浅色模式渐变表现弱]
+  cn_friendly: 5
+
+vodafone:
+  tone: [活力, 信赖, 现代]
+  density: 中
+  color_style: 单色克制
+  mood: 猩红信赖
+  industries: [通信, 运营商]
+  strengths: [猩红CTA强品牌识别, 800字重标题力]
+  weaknesses: [色彩系统单一]
+  cn_friendly: 3
+
+voltagent:
+  tone: [硬核, 未来, 开发者]
+  density: 密
+  color_style: 双色平衡
+  mood: 电绿代码
+  industries: [开发者工具, AI]
+  strengths: [电绿代码编辑器美学, 深色沉浸感]
+  weaknesses: [非技术用户亲和力差]
+  cn_friendly: 3
+
+warp:
+  tone: [专业, 编辑, 温暖]
+  density: 中
+  color_style: 双色平衡
+  mood: 暖炭编辑
+  industries: [开发者工具, 终端]
+  strengths: [衬线斜体混排品质感, 暖炭底色独特]
+  weaknesses: [风格偏小众]
+  cn_friendly: 3
+
+webflow:
+  tone: [专业, 创意, 现代]
+  density: 中
+  color_style: 渐变为主
+  mood: 五色光谱
+  industries: [设计工具, 建站平台]
+  strengths: [五色光谱渐变体系, 黑白双轨切换]
+  weaknesses: [色彩系统实现复杂]
+  cn_friendly: 4
+
+wired:
+  tone: [编辑, 前卫, 杂志]
+  density: 密
+  color_style: 单色克制
+  mood: 黑白编辑
+  industries: [媒体, 科技资讯]
+  strengths: [定制衬线体编辑质感, 黑白对比冲击力]
+  weaknesses: [色彩装饰几乎为零]
+  cn_friendly: 2
+
+wise:
+  tone: [活力, 现代, 金融]
+  density: 中
+  color_style: 单色克制
+  mood: 青柠金融
+  industries: [金融科技, 支付]
+  strengths: [青柠绿品牌差异, 900字重标题冲击力]
+  weaknesses: [色彩温度偏冷不够温暖]
+  cn_friendly: 3
+
+x.ai:
+  tone: [极简, 未来, 深邃]
+  density: 疏
+  color_style: 渐变为主
+  mood: 暗夜日落
+  industries: [人工智能, 科技]
+  strengths: [日落渐变氛围感, 白色胶囊深底对比]
+  weaknesses: [品牌色彩记忆点弱]
+  cn_friendly: 3
+
+zapier:
+  tone: [温暖, 友好, 自动化]
+  density: 中
+  color_style: 双色平衡
+  mood: 咖啡暖橙
+  industries: [自动化, SaaS]
+  strengths: [咖啡墨水独特底色, Degular Display字体个性]
+  weaknesses: [色彩对比度有时不足]
+  cn_friendly: 3

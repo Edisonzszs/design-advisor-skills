@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "session-start": [
+      {
+        "event": "startup|clear|compact",
+        "command": "hooks/session-start"
+      }
+    ]
+  }
+}
