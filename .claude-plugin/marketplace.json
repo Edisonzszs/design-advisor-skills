@@ -12,7 +12,7 @@
       "name": "design-advisor",
       "source": {
         "source": "url",
-        "url": "https://github.com/Edisonzszs/design-advisor-skills.git"
+        "url": "git@github.com:Edisonzszs/design-advisor-skills.git"
       },
       "description": "智能设计顾问 - 基于 72 个 DESIGN.md 的多维度评分推荐系统，支持混合选择和定制输出",
       "version": "1.0.0"
