@@ -1,8 +1,8 @@
 {
   "hooks": {
-    "session-start": [
+    "SessionStart": [
       {
-        "event": "startup|clear|compact",
+        "event": "SessionStart",
         "command": "hooks/session-start"
       }
     ]
