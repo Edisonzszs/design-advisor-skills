@@ -1,0 +1,20 @@
+{
+  "name": "design-advisor",
+  "version": "1.0.0",
+  "description": "智能设计顾问 - 基于 71 个 DESIGN.md 的多维度评分推荐系统",
+  "author": {
+    "name": "zhiguan"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Design Advisor",
+    "shortDescription": "AI-powered design system advisor with 71 brand DESIGN.md files",
+    "longDescription": "Interactive design system recommendation engine. Score 71 brands across 12 dimensions, generate custom DESIGN.md files, or hybrid-mix tokens from multiple design systems.",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ]
+  }
+}

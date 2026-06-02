@@ -14,7 +14,9 @@
 
 ## What is this?
 
-A Claude Code Plugin that helps you **choose the right design system** for your project. Instead of browsing 71 DESIGN.md files manually, describe your project needs and get data-driven recommendations.
+A cross-platform AI coding agent plugin that helps you **choose the right design system** for your project. Instead of browsing 71 DESIGN.md files manually, describe your project needs and get data-driven recommendations.
+
+Works with: **Claude Code** · **Codex CLI** · **Gemini CLI** · **Cursor** · **GitHub Copilot CLI**
 
 **Three core capabilities:**
 
@@ -30,7 +32,7 @@ Drop it into your project root, tell your agent *"build me a page that follows D
 
 ## How to Use
 
-### Option 1: Use a DESIGN.md directly
+### Option 1: Use a DESIGN.md directly (any agent)
 
 1. Browse `design-md/{brand}/DESIGN.md`
 2. Copy the one that fits into your project root
@@ -38,16 +40,63 @@ Drop it into your project root, tell your agent *"build me a page that follows D
 
 ### Option 2: Use the Design Advisor (recommended)
 
-This project is a Claude Code Plugin. Install it and run `/design-advisor` to get a personalized recommendation:
+Install the plugin for your agent, then trigger the advisor:
 
+#### Claude Code
+
+```bash
+# Install from marketplace
+/plugin install design-advisor
+
+# Or register this marketplace:
+/plugin marketplace add Edisonzszs/design-advisor-marketplace
+/plugin install design-advisor@design-advisor-marketplace
+```
+
+Then run:
 ```
 > /design-advisor
+```
 
-# The advisor will:
-1. Ask about your project (type, tone, dark mode, density, market)
-2. Score all 71 brands across 12 dimensions
-3. Show TOP 5 recommendations with detailed analysis
-4. Generate a customized DESIGN.md for your project
+#### Codex CLI
+
+```bash
+# Install from plugin marketplace
+/plugins
+# Search for "design-advisor" and select Install
+```
+
+Or add to your Codex config:
+```bash
+# The plugin auto-loads via AGENTS.md when cloned into your project
+```
+
+#### Gemini CLI
+
+```bash
+# Install the extension
+gemini extensions install https://github.com/Edisonzszs/design-advisor-skills
+```
+
+Then use `activate_skill design-advisor` or simply ask about design system choices.
+
+#### Cursor
+
+```text
+# In Cursor Agent chat:
+/add-plugin design-advisor
+```
+
+Or search for "design-advisor" in the plugin marketplace.
+
+#### GitHub Copilot CLI
+
+```bash
+# Register the marketplace
+copilot plugin marketplace add Edisonzszs/design-advisor-marketplace
+
+# Install the plugin
+copilot plugin install design-advisor@design-advisor-marketplace
 ```
 
 ### Option 3: Hybrid two brands
@@ -65,10 +114,23 @@ Can't decide? Mix the best parts:
 
 ```
 design-advisor-skills/
-├── .claude-plugin/plugin.json       # Plugin manifest
-├── hooks/session-start              # Session initialization
+├── .claude-plugin/plugin.json       # Claude Code plugin manifest
+├── .codex-plugin/plugin.json        # Codex CLI plugin manifest
+├── .cursor-plugin/plugin.json       # Cursor plugin manifest
+├── gemini-extension.json            # Gemini CLI extension config
+├── AGENTS.md                        # Codex entry point
+├── GEMINI.md                        # Gemini CLI entry point
+├── hooks/
+│   ├── hooks.json                   # Claude Code hook config
+│   ├── hooks-cursor.json            # Cursor hook config
+│   └── session-start                # Multi-platform session init
 ├── skills/
-│   ├── design-advisor/SKILL.md      # Main entry: requirements → scoring → recommendation
+│   ├── design-advisor/
+│   │   ├── SKILL.md                 # Main entry: requirements → scoring → recommendation
+│   │   └── references/              # Platform tool mappings
+│   │       ├── codex-tools.md
+│   │       ├── gemini-tools.md
+│   │       └── copilot-tools.md
 │   ├── design-score/SKILL.md        # Scoring engine (12 dimensions)
 │   ├── design-compare/SKILL.md      # Comparison report + analysis
 │   ├── design-hybrid/SKILL.md       # Multi-brand token mixing
@@ -76,7 +138,7 @@ design-advisor-skills/
 ├── data/
 │   ├── design-index.yaml            # 71 brands quantitative metrics
 │   ├── personality-tags.yaml        # 71 brands personality profiles
-│   ├── scoring-dimensions.csv        # 12 scoring dimensions + weights
+│   ├── scoring-dimensions.csv       # 12 scoring dimensions + weights
 │   ├── industry-fit.csv             # Industry-style matching matrix
 │   └── hybrid-rules.csv             # Token mixing rules
 └── design-md/                       # 71 brand DESIGN.md files
