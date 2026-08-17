@@ -1,5 +1,5 @@
 # Design System Metrics
-# Total brands: 71
+# Total brands: 74
 
 brands:
   airbnb:
@@ -242,6 +242,22 @@ brands:
     font_count: 2
     canvas_polarity: "light"
     proprietary_fonts: true
+  dell-1996:
+    name: "Dell-1996-design-analysis"
+    category: "consumer"
+    color_count: 17
+    accent_colors: 3
+    has_dark_mode: false
+    has_gradient: true
+    hero_size_px: 36
+    body_size_px: 14
+    max_radius_px: 0
+    section_spacing_px: 48
+    component_count: 9
+    elevation_levels: 2
+    font_count: 3
+    canvas_polarity: "light"
+    proprietary_fonts: false
   elevenlabs:
     name: "ElevenLabs-design-analysis"
     category: "ai"
@@ -337,6 +353,22 @@ brands:
     elevation_levels: 4
     font_count: 1
     canvas_polarity: "both"
+    proprietary_fonts: true
+  hp:
+    name: "HP-design-analysis"
+    category: "consumer"
+    color_count: 24
+    accent_colors: 4
+    has_dark_mode: false
+    has_gradient: false
+    hero_size_px: 72
+    body_size_px: 16
+    max_radius_px: 16
+    section_spacing_px: 80
+    component_count: 5
+    elevation_levels: 2
+    font_count: 1
+    canvas_polarity: "light"
     proprietary_fonts: true
   ibm:
     name: "IBM-design-analysis"
@@ -562,6 +594,22 @@ brands:
     font_count: 4
     canvas_polarity: "light"
     proprietary_fonts: true
+  nintendo-2001:
+    name: "Nintendo-2001-design-analysis"
+    category: "consumer"
+    color_count: 22
+    accent_colors: 4
+    has_dark_mode: false
+    has_gradient: true
+    hero_size_px: 44
+    body_size_px: 15
+    max_radius_px: 10
+    section_spacing_px: 48
+    component_count: 7
+    elevation_levels: 2
+    font_count: 2
+    canvas_polarity: "light"
+    proprietary_fonts: false
   notion:
     name: "Notion-design-analysis"
     category: "saas"
