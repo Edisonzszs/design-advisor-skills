@@ -1,5 +1,5 @@
 # personality-tags.yaml
-# 71 brand personality profiles derived from DESIGN.md analysis
+# 74 brand personality profiles derived from DESIGN.md analysis
 # Each entry based on actual design system content
 
 airbnb:
@@ -152,6 +152,16 @@ cursor:
   weaknesses: [色彩系统单一]
   cn_friendly: 4
 
+dell-1996:
+  tone: [复古, 务实, 目录感]
+  density: 密
+  color_style: 多色分类
+  mood: 九十年代企业目录
+  industries: [PC硬件, 电商目录]
+  strengths: [表格化信息密度, 高对比彩色分区标识]
+  weaknesses: [无圆角与留白, 位图排版不可缩放]
+  cn_friendly: 2
+
 elevenlabs:
   tone: [优雅, 未来, 杂志]
   density: 疏
@@ -211,6 +221,16 @@ hashicorp:
   strengths: [多产品色彩体系, 企业级一致性]
   weaknesses: [视觉温度偏冷]
   cn_friendly: 3
+
+hp:
+  tone: [专业, 清晰, 大众]
+  density: 中
+  color_style: 单色克制
+  mood: 消费电子目录
+  industries: [PC硬件, 电商零售]
+  strengths: [单一蓝色信号色纪律, 白底灰带的分区节奏]
+  weaknesses: [品牌记忆点偏弱, 缺少暗色支持]
+  cn_friendly: 4
 
 ibm:
   tone: [专业, 理性, 信赖]
@@ -351,6 +371,16 @@ nike:
   strengths: [超大字重对比冲击, Futura大写品牌力]
   weaknesses: [风格极端, 复用性极低]
   cn_friendly: 5
+
+nintendo-2001:
+  tone: [复古, 活泼, 硬件感]
+  density: 中
+  color_style: 高饱和撞色
+  mood: 主机拟物金属面板
+  industries: [游戏娱乐, 消费电子]
+  strengths: [斜面金属质感统一, 强烈的时代辨识度]
+  weaknesses: [拟物化难以复用, 无响应式基础]
+  cn_friendly: 3
 
 notion:
   tone: [友好, 清晰, 现代]
