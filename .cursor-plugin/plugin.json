@@ -2,7 +2,7 @@
   "name": "design-advisor",
   "displayName": "Design Advisor",
   "description": "智能设计顾问 - 基于 71 个 DESIGN.md 的多维度评分推荐系统，支持混合选择和定制输出",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "zhiguan"
   },
